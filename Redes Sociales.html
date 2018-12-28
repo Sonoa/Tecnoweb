@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <style>
+
+      .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 70px;
+        text-align: center;
+        text-decoration: none;
+        margin: 100px 20px;
+        border-radius: 50%;
+
+      }
+
+      .fa:hover {
+        opacity: 0.7;
+      }
+
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+        margin-left: 400px
+      }
+
+      .fa-instagram {
+        background: #fc82ff;
+        color: white;
+      }
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  }
+  li {
+  float: left;
+  }
+
+  li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+
+  li a:hover {
+  background-color: #111;
+  }
+  </style>
+  </head>
+  <body>
+    <ul>
+      <li><a class="active" href="Tecnoweb.html">Inventos</a></li>
+      <li><a href="mujeres2.html">Mujeres pioneras</a></li>
+      <li><a href="Redes Sociales.html">Redes sociales</a></li>
+      <li><a href="Sobrenosotras.html">Sobre nosotras</a></li>
+    </ul>
+
+
+  <div class="container-fluid bg-success py-5">
+      <div class="container text-white">
+          <h1 class="display-3">
+            <b text-align: center> Redes Sociales </b> </h1>
+          <hr>
+          <h3>¡Síguenos!</h3>
+
+
+      </div>
+  </div>
+
+
+
+<!-- Iconos -->
+<div class="container">
+
+  <a href="#" id=social class="fa fa-twitter"></a>
+  <a href="#" id=social1 class="fa fa-instagram"></a>
+  <a href="#" id=social2 class="fa fa-facebook"></a>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#social").click(function(){
+    alert('¡Has comenzado a seguirnos en twitter!');
+  });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+  $("#social1").click(function(){
+    alert('¡Has comenzado a seguirnos en instagram!');
+  });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+  $("#social2").click(function(){
+    alert('¡Has comenzado a seguirnos en facebook!');
+  });
+});
+</script>
+
+
+  </body>
+</html>
